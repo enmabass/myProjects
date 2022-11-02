@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+}
+
+.header{
+    border: 1px solid #DBDBDB;
+    height:  58px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 10;
+    margin-bottom: 1000px;
+    top: 0;
+}
+.navbar{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: relative;
+}
+.logo{
+    height: 50px;
+    padding-right: 5px;
+    background-color: white;
+}
+.logoArrow{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background-color: white;
+}
+.inputfield{
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    width: 267px;
+    height: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    background: url(img/lupe.png) no-repeat 10.5px 9px;
+    background-size: 20px 20px;
+    padding-left:40px;
+    background-color: #EFEFEF;
+}
+.container{
+    margin: 0 auto;
+    width: 60rem;
+}
+
+.white{
+    background-color: white;
+}
+.colorGray{
+    background-color: #FAFAFA;
+    height: 100%;
+    
+}
+.icons{
+    cursor: default;
+    background-color: white;
+}
+.icons img{
+    margin-left: 7px;
+    margin-right: 7px;
+    width:24px;
+    height: 24px;
+    cursor: pointer;
+    background-color: white;
+}
+.arrow {
+    border: solid #918c8c;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    background-color: white;
+}
+
+.down{
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.container2{
+    margin: 0 auto;
+    width: 830px;
+    
+}
+.postBox{
+    border: 1px solid #DBDBDB;
+    border-radius: 9px;
+    background-color: white;
+    width: 470px;
+    margin-bottom: 15px;
+    margin-right: 30px;
+}
+
+.break{
+    background-color: #FAFAFA;
+    height: 100px;
+}
+
+.postTitle{
+    display: flex; 
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.margin-right{
+    margin-right: 10px;
+}
+
+.font{
+    font-size: 14px;
+}
+
+.imgPost{
+    width: 100%;
+    max-height: 550px;
+    object-fit: contain;
+}
+.splitter{
+    display: flex;
+}
+
+.rightSection{
+    padding-top: 15px;
+    
+}
+.profile-pic{
+    width: 50px;
+    height: 50px;
+}
+
+.margin-left{
+    margin-left: -50px;
+}
+
+.blue{
+    color: #005A94;
+    cursor: pointer;
+}
+.blue:hover{
+    color: #1296ee
+}
+.margin-bottom{
+    margin-bottom: 15px;
+}
+.grey{
+    color: #9B9B9B;
+}
+
+.container3{
+        margin: 0 auto;
+        width: 330px;
+        position: fixed;
+        
+}
+.space-between{
+    justify-content: space-between;
+}
+
+.margin-left2{
+    margin-left: -150px;
+    
+}
+.pointer{
+    cursor: pointer;
+}
+.picIcon{
+    padding-left: 15px;
+    padding-top: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.saveIcon{
+    padding-right: 15px;
+    padding-top: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    
+}
+
+.center{
+    align-items: center;
+}
+
+.commentSection{
+    padding-left: 15px;
+    padding-top: 10px;
+    display: grid;
+}
+.input{
+    width: 387px;
+    border: none;
+    height: 46px;
+    margin-left: 5px;
+    padding-left: 10px;
+}
+.input:focus{
+    outline: none;
+}
+#comment{
+    color: #9B9B9B;
+}
+
+.allComments{
+    display: grid;
+}
+.paddingBottom{
+    padding-bottom: 5px;
+}
+
+@media(max-width:958px){
+    .inputfield{
+        display: none;
+    }
+    .container{
+        margin: 0 auto;
+        width: 100%;
+    }
+    .container3{
+        display: none;
+    }
+    .postBox{
+        margin: 10px;
+        width: 95%;
+        
+        margin-right: 0px;
+    }
+    
+    .container2{
+        margin: 0 auto;
+        width: 95%;
+    }
+}
+
+@media(max-width:520px){
+    .paddingLeft{
+        margin-left: -50px;
+    }
+}
+
+@media(max-width:520px){
+    .paddingLeft{
+        margin-left: -100px;
+    }
+    .input{
+        width: 400px;
+        border: none;
+        height: 46px;
+        margin-left: 0px;
+        padding-left: 15px;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:464px){
+    .paddingLeft{
+        margin-left: 100px;
+    }
+
+    .input{
+        width: auto;
+        border: none;
+        height: fit-content;
+        margin-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
